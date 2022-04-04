@@ -1,0 +1,43 @@
+.signUpArea{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 30px 10px 30px;
+    border: solid blue 4px;
+}
+.signUpArea *{
+    border-radius: 5px;
+}
+.purpleBanner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    margin-bottom: 20px;
+    height: 60px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding:25px;
+    background-color: white;
+    color: black;
+}
+form * {
+    margin: 10px 0px 10px 0px;
+    height: 40px;
+    height: 40px;
+
+}
+input{
+    outline:;
+}
+button{
+    background-color: green;
+    border: none;
+}
+
+.tos{
+
+}

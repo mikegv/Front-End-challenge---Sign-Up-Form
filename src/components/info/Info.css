@@ -1,0 +1,15 @@
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    padding: 50px;
+    border: solid green 4px;
+}
+
+.header{
+    font-size: 40px;    
+    font-weight: bolder;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
