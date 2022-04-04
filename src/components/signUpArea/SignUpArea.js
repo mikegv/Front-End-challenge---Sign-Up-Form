@@ -6,7 +6,7 @@ const SignUpArea = () => {
     return (
 
         <div className='signUpArea'>
-            <p className='purpleBanner'>Try it free 7 days then $20/mo. thereafter</p>
+            <pre className='purpleBanner'><b>Try it free 7 days</b> then $20/mo. thereafter</pre>
             <form>
                 <input type='text' placeholder='Jonathan' />
                 <input type='text' placeholder='Last Name' />
@@ -15,7 +15,7 @@ const SignUpArea = () => {
 
                 <button>Claim your free trial</button>
 
-                <p className='tos'>By clicking the button, you are agreeing to our Terms and Services</p>
+                <p className='tos'>By clicking the button, you are agreeing to our <span className="redText">Terms and Services</span></p>
             </form>
         </div>
     );

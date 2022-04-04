@@ -11,7 +11,7 @@
   width: 100vw;
   height: 100vh;
   display: flex;
-  padding: 50px 150px 50px 100px;
+  padding: 20px 150px 20px 100px;
   color: white;
 }
 .attribution 
@@ -20,4 +20,17 @@
 }
 .attribution a { 
   color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 800px) {
+ .App{
+   flex-direction: column;
+   background: url('../public/images/bg-intro-desktop.png') hsl(0, 100%, 74%) ;
+   background-repeat: repeat-y;
+   padding: 0px;
+   min-height: 100vh;
+ }
+ .signUpArea{
+  padding: 0px;
+}
 }

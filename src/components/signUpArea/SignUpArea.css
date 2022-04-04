@@ -4,23 +4,25 @@
     flex-direction: column;
     justify-content: center;
     padding: 10px 30px 10px 30px;
-    border: solid blue 4px;
 }
 .signUpArea *{
-    border-radius: 5px;
+    border-radius: 7px;
 }
 .purpleBanner{
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color: purple;
+    background-color: hsl(248, 32%, 49%);
     margin-bottom: 20px;
     height: 60px;
+    box-shadow: 0px 10px rgba(85, 85, 85, 0.3);
+    font-weight: 100;
 }
+
 form{
     display: flex;
     flex-direction: column;
-    padding:25px;
+    padding:20px 40px 20px 40px;
     background-color: white;
     color: black;
 }
@@ -28,16 +30,27 @@ form * {
     margin: 10px 0px 10px 0px;
     height: 40px;
     height: 40px;
-
 }
 input{
-    outline:;
+    height: 60px;
+    border: lightgray solid 1px;
+    padding-left: 20px;
+    font-weight: bolder;
 }
 button{
-    background-color: green;
+    background-color: hsl(154, 59%, 51%)
+    ;
     border: none;
+    height: 60px;
+    box-shadow: 0px 4px rgb(57, 173, 131);
 }
 
 .tos{
-
+ color: lightgray;
+ font-size: small;
+ text-align: center;
 }
+.redText{
+    color:red;
+}
+
