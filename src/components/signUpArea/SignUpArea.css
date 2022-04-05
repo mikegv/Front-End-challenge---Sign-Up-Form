@@ -19,38 +19,3 @@
     font-weight: 100;
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    padding:20px 40px 20px 40px;
-    background-color: white;
-    color: black;
-}
-form * {
-    margin: 10px 0px 10px 0px;
-    height: 40px;
-    height: 40px;
-}
-input{
-    height: 60px;
-    border: lightgray solid 1px;
-    padding-left: 20px;
-    font-weight: bolder;
-}
-button{
-    background-color: hsl(154, 59%, 51%)
-    ;
-    border: none;
-    height: 60px;
-    box-shadow: 0px 4px rgb(57, 173, 131);
-}
-
-.tos{
- color: lightgray;
- font-size: small;
- text-align: center;
-}
-.redText{
-    color:red;
-}
-

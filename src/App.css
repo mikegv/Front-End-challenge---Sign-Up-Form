@@ -9,7 +9,7 @@
 .App{
   background: url('../public/images/bg-intro-desktop.png') hsl(0, 100%, 74%) ;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   padding: 20px 150px 20px 100px;
   color: white;
