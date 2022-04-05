@@ -34,4 +34,16 @@ button{
 }
 .hasError{
     border: red solid 2px;
+    background-image: url('../../../public/images/icon-error.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.showWarning{
+    font-size: smaller;
+    color: red;
+    height: 5px; 
+    margin-top: 0px;  
+}
+.hideWarning{
+    display:none;
 }

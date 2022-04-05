@@ -27,8 +27,9 @@ const SignUpForm = () => {
         }
     }
     const emailAddressHandler = (e) => {
-        setEmailAddress(e.target.value)
-        if(e.target.value){
+        let email=e.target.value
+        setEmailAddress(email)
+        if(email && email.includes('@')){
             setEmailAddressError(false)
         }
     }
@@ -78,9 +79,13 @@ const SignUpForm = () => {
     return (
         <form onSubmit={submitHandler}>
                 <input type='text' placeholder='Jonathan' value={firstName} onChange={firstNameHandler} className={showFirstNameError} />
+                <span className={!firstNameError ? 'hideWarning' : 'showWarning'} >First Name can't be blank</span>
                 <input type='text' placeholder='Last Name' value={lastName} onChange={lastNameHandler} className={showLastNameError} />
+                <span className={!lastNameError ? 'hideWarning' : 'showWarning'} >Last Name can't be blank</span>
                 <input type='text' placeholder='Email Address' value={emailAddress} onChange={emailAddressHandler} className={showEmailError} />                
+                <span className={!emailAddressError ? 'hideWarning' : 'showWarning'} >Email can't be blank and needs @</span>
                 <input type='text' placeholder='Password' value={password} onChange={passwordHandler} className={showPasswordError} />
+                <span className={!passwordError ? 'hideWarning' : 'showWarning'} >Password can't be blank</span>
 
                 <button type='submit'>Claim your free trial</button>
 
