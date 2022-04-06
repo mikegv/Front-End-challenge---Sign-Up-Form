@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/Front-End-challenge---Sign-Up-Form/static/css/main.4d5d5f40.css",
+    "main.css": "/Front-End-challenge---Sign-Up-Form/static/css/main.da8f7433.css",
     "main.js": "/Front-End-challenge---Sign-Up-Form/static/js/main.93d50808.js",
     "static/js/787.aad8f0b6.chunk.js": "/Front-End-challenge---Sign-Up-Form/static/js/787.aad8f0b6.chunk.js",
     "static/media/bg-intro-desktop.png": "/Front-End-challenge---Sign-Up-Form/static/media/bg-intro-desktop.059183eea52640c5068d.png",
+    "static/media/bg-intro-mobile.png": "/Front-End-challenge---Sign-Up-Form/static/media/bg-intro-mobile.02ce398270ece1769ebc.png",
     "static/media/logo.svg": "/Front-End-challenge---Sign-Up-Form/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Front-End-challenge---Sign-Up-Form/index.html",
     "static/media/icon-error.svg": "/Front-End-challenge---Sign-Up-Form/static/media/icon-error.b72f792e9c900128f5c8.svg",
-    "main.4d5d5f40.css.map": "/Front-End-challenge---Sign-Up-Form/static/css/main.4d5d5f40.css.map",
+    "main.da8f7433.css.map": "/Front-End-challenge---Sign-Up-Form/static/css/main.da8f7433.css.map",
     "main.93d50808.js.map": "/Front-End-challenge---Sign-Up-Form/static/js/main.93d50808.js.map",
     "787.aad8f0b6.chunk.js.map": "/Front-End-challenge---Sign-Up-Form/static/js/787.aad8f0b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d5d5f40.css",
+    "static/css/main.da8f7433.css",
     "static/js/main.93d50808.js"
   ]
 }
