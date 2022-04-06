@@ -41,7 +41,6 @@ const SignUpForm = () => {
     }
     const submitHandler = (event) => {
         event.preventDefault()
-
         if(!firstName){
          setFirstNameError(true)   
         }
