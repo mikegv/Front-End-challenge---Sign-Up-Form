@@ -6,6 +6,7 @@ form{
     background-color: white;
     color: black;
 }
+
 form * {
     margin: 10px 0px 10px 0px;
     height: 40px;
@@ -46,4 +47,12 @@ button{
 }
 .hideWarning{
     display:none;
+}
+
+@media screen and (max-width: 1200px) {
+    form{
+        padding: 20px;
+        max-width: 400px;
+        min-width: 200px;
+    }
 }

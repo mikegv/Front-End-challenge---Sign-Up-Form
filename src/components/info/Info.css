@@ -5,6 +5,11 @@
     width: 50vw;
     padding: 50px;
 }
+@media screen and (max-width: 1200px) {
+    .info{
+        width: 100%;
+    }
+}
 
 .header{
     font-size: 40px;    

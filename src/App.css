@@ -22,15 +22,13 @@
   color: hsl(228, 45%, 44%); 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
  .App{
    flex-direction: column;
-   background: url('../public/images/bg-intro-desktop.png') hsl(0, 100%, 74%) ;
-   background-repeat: repeat-y;
+   align-items: center;
+   background: url('../public/images/bg-intro-mobile.png') hsl(0, 100%, 74%) ;
+   background-repeat: repeat;
    padding: 0px;
-   min-height: 100vh;
+   width: 100vw;
  }
- .signUpArea{
-  padding: 0px;
-}
 }
