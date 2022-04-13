@@ -77,14 +77,14 @@ const SignUpForm = () => {
   
     return (
         <form onSubmit={submitHandler}>
-                <input type='text' placeholder='Jonathan' value={firstName} onChange={firstNameHandler} className={showFirstNameError} />
-                <span className={!firstNameError ? 'hideWarning' : 'showWarning'} >First Name can't be blank</span>
+                <input type='text' placeholder='First Name' value={firstName} onChange={firstNameHandler} className={showFirstNameError} />
+                <span className={!firstNameError ? 'hideWarning' : 'showWarning'} >First Name cannot be empty</span>
                 <input type='text' placeholder='Last Name' value={lastName} onChange={lastNameHandler} className={showLastNameError} />
-                <span className={!lastNameError ? 'hideWarning' : 'showWarning'} >Last Name can't be blank</span>
+                <span className={!lastNameError ? 'hideWarning' : 'showWarning'} >Last Name cannot be empty</span>
                 <input type='text' placeholder='Email Address' value={emailAddress} onChange={emailAddressHandler} className={showEmailError} />                
-                <span className={!emailAddressError ? 'hideWarning' : 'showWarning'} >Email can't be blank and needs @</span>
-                <input type='text' placeholder='Password' value={password} onChange={passwordHandler} className={showPasswordError} />
-                <span className={!passwordError ? 'hideWarning' : 'showWarning'} >Password can't be blank</span>
+                <span className={!emailAddressError ? 'hideWarning' : 'showWarning'} >Looks like this is not an email</span>
+                <input type='password' placeholder='Password' value={password} onChange={passwordHandler} className={showPasswordError} />
+                <span className={!passwordError ? 'hideWarning' : 'showWarning'} >Password cannot be empty</span>
 
                 <button type='submit'>Claim your free trial</button>
 

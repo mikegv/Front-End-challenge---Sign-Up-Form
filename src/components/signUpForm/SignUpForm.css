@@ -44,6 +44,7 @@ button{
     color: red;
     height: 5px; 
     margin-top: 0px;  
+    text-align: right;
 }
 .hideWarning{
     display:none;
